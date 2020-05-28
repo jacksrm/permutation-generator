@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/permutation-generator/precache-manifest.e33ea472c0a12c044411503f457c61a8.js"
+  "/permutation-generator/precache-manifest.71ee79d6d2273edb2d872d9df19b2685.js"
 );
 
 self.addEventListener('message', (event) => {

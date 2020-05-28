@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e99c4723bf308bc4a524b712b5148be4",
+    "revision": "d7548d934a4f2a3f6cde483bf7b3f1e7",
     "url": "/permutation-generator/index.html"
   },
   {
-    "revision": "370c0d6038dd6fcfa4b1",
+    "revision": "7eb68de2996c6afb1d18",
     "url": "/permutation-generator/static/css/main.d7e4dc77.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/permutation-generator/static/js/2.d8ecbd75.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "370c0d6038dd6fcfa4b1",
-    "url": "/permutation-generator/static/js/main.d5886ad7.chunk.js"
+    "revision": "7eb68de2996c6afb1d18",
+    "url": "/permutation-generator/static/js/main.69820948.chunk.js"
   },
   {
     "revision": "0362b4c852b281a85a0e",
