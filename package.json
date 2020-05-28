@@ -2,7 +2,7 @@
   "name": "gera_permutacoes",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://pergen.com/",
+  "homepage":"https://jacksrm.github.io/permutation-generator/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

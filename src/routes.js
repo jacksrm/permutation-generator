@@ -6,7 +6,7 @@ import Permutation from './pages/Permutation';
 
 export default function Routes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={Introduction} />
         <Route exact path="/permutation" component={Permutation} />
