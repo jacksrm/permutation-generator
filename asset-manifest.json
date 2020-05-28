@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/permutation-generator/static/css/main.d7e4dc77.chunk.css",
+    "main.js": "/permutation-generator/static/js/main.d5886ad7.chunk.js",
+    "main.js.map": "/permutation-generator/static/js/main.d5886ad7.chunk.js.map",
+    "runtime-main.js": "/permutation-generator/static/js/runtime-main.ffeba7d6.js",
+    "runtime-main.js.map": "/permutation-generator/static/js/runtime-main.ffeba7d6.js.map",
+    "static/js/2.d8ecbd75.chunk.js": "/permutation-generator/static/js/2.d8ecbd75.chunk.js",
+    "static/js/2.d8ecbd75.chunk.js.map": "/permutation-generator/static/js/2.d8ecbd75.chunk.js.map",
+    "index.html": "/permutation-generator/index.html",
+    "precache-manifest.e33ea472c0a12c044411503f457c61a8.js": "/permutation-generator/precache-manifest.e33ea472c0a12c044411503f457c61a8.js",
+    "service-worker.js": "/permutation-generator/service-worker.js",
+    "static/css/main.d7e4dc77.chunk.css.map": "/permutation-generator/static/css/main.d7e4dc77.chunk.css.map",
+    "static/js/2.d8ecbd75.chunk.js.LICENSE.txt": "/permutation-generator/static/js/2.d8ecbd75.chunk.js.LICENSE.txt",
+    "static/media/logo_green.svg": "/permutation-generator/static/media/logo_green.e672988f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffeba7d6.js",
+    "static/js/2.d8ecbd75.chunk.js",
+    "static/css/main.d7e4dc77.chunk.css",
+    "static/js/main.d5886ad7.chunk.js"
+  ]
+}
