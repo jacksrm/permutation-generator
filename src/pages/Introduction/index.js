@@ -12,7 +12,7 @@ export default function Introduction() {
     <>
       <div className="content">
         
-        <h1>Trabalho de Matémática</h1>
+        <h1>PerGen</h1>
 
         <h3>Integrantes: </h3>
         
