@@ -1,0 +1,10 @@
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.bottom img {
+  height: 10vh;
+}

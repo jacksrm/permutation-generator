@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#444, #111);
+  overflow: hidden;
+}
+
+h1,h3 {
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+}
+
+p,a,select,input,li {
+  font-family: Cairo, sans-serif;
+}
+
+a{
+  color: #81ff6d;
+}
+
+strong {
+  color: #81ff6d;
+  font-weight: 700;
+}
+
+
+.content {
+  height: 90vh;
+  width: 90vw;
+  padding: 0 5vw;
+  background-color: transparent;
+  border-left: 1px solid #81ff6d;
+  display: flex; 
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #ddd;
+  margin-bottom: 1.5rem;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ddd;
+  margin: 1.5rem 0;
+}
+
+.content p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #aaa;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.button {
+  height: 8vh;
+  width: 10vw;
+  background-color: transparent;
+  border: 2px solid #81ff6d;
+  border-radius: 8vh;
+  text-decoration: none;
+  text-align: center;
+  line-height: 7vh;
+  color: #81ff6d;
+  transition: all 300ms;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #81ff6d;
+  color: #111;
+}
