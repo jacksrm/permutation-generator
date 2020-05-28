@@ -61,7 +61,6 @@
   width:  auto;
   border-left: 1px solid #80ff6d52;
   border-right: 1px solid #80ff6d52;
-  border: ;
   padding: 2vh;
   display: flex;
   flex-direction: column;
@@ -72,7 +71,6 @@
   margin: 0;
 }
 
-
 .scroll {
   height: 90%;
   overflow: scroll;
@@ -82,7 +80,6 @@
 .scroll::-webkit-scrollbar {
   display: none;
 }
-
 
 .scroll ul li {
   list-style: none;

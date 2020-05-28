@@ -89,29 +89,35 @@ export default function Permutation() {
     return permutations;
   }
 
-  console.log(isNumber);
   return (
     <>
       <div className="content center">
-
         <h1>Gerador de Permutações</h1>
 
         <div className="app">
-
           <div className="info">
             <p>
-              Essa é uma aplicação com a finalidade de gerar permutações em ordem
-              lexicográfica, tomando como base o algorítmo que consta <a href="https://www.geeksforgeeks.org/lexicographic-permutations-of-string/" target="_blank" rel="noopener noreferrer">neste artigo</a>.
+              Essa é uma aplicação com a finalidade de gerar permutações em
+              ordem lexicográfica, tomando como base o algorítmo que consta{' '}
+              <a
+                href="https://www.geeksforgeeks.org/lexicographic-permutations-of-string/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                neste artigo
+              </a>
+              .
             </p>
 
             <p>
-              Você pode escolher permutações com sistema numérico ou alfanumérico.
-              Para ambos os sistemas, as permutações são de <strong>1 → N</strong>,
-              porém, por questões de desempenho, limitaremos a <strong>1 → 8</strong>
-              . Para o sistema numérico, escolha o valor de <strong>N</strong>, para
-              o sistema alfanumérico, insira os caracteres separados por vírgula ( , ).
+              Você pode escolher permutações com sistema numérico ou
+              alfanumérico. Para ambos os sistemas, as permutações são de{' '}
+              <strong>1 → N</strong>, porém, por questões de desempenho,
+              limitaremos a <strong>1 → 8</strong>. Para o sistema numérico,
+              escolha o valor de <strong>N</strong>, para o sistema
+              alfanumérico, insira os caracteres separados por vírgula ( , ).
             </p>
-           
+
             <form onSubmit={generateArray}>
               <select
                 name="select"
@@ -128,16 +134,16 @@ export default function Permutation() {
                 value={valor}
                 onChange={(e) => setValor(e.target.value)}
               />
-              <button className="button" type="submit">GO!</button>
+              <button className="button" type="submit">
+                GO!
+              </button>
             </form>
-            
           </div>
 
-
           <div className="permutations">
-
-            <h3 id="perm-count">Número de permutações: {permutations.length}</h3>
-
+            <h3 id="perm-count">
+              Número de permutações: {permutations.length}
+            </h3>
 
             <div className="scroll">
               <ul>
@@ -146,10 +152,8 @@ export default function Permutation() {
                 ))}
               </ul>
             </div>
-
           </div>
         </div>
-
       </div>
     </>
   );
