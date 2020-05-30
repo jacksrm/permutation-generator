@@ -8,7 +8,7 @@ export default function Permutation() {
   const [permutations, setPermutations] = useState([]);
 
   // cria o nosso array dependendo da entrada do usuário
-  async function generateArray(e) {
+  function generateArray(e) {
     e.preventDefault();
 
     if (!valor) return;
@@ -55,8 +55,6 @@ export default function Permutation() {
     const size = array.length;
     let permutations = [];
     let isFinished = false;
-
-    array.sort();
 
     while (isFinished !== true) {
       permutations.push(array.toString());
@@ -116,6 +114,14 @@ export default function Permutation() {
               limitaremos a <strong>1 → 8</strong>. Para o sistema numérico,
               escolha o valor de <strong>N</strong>, para o sistema
               alfanumérico, insira os caracteres separados por vírgula ( , ).
+            </p>
+
+            <p style={{ marginTop: '2vh' }}>
+              <strong>Aviso:</strong>{' '}
+              <i>
+                O resultado será verdadeiro desde que os caracteres{' '}
+                <strong>não estejam repetidos</strong>.
+              </i>
             </p>
 
             <form onSubmit={generateArray}>
